@@ -14,6 +14,7 @@
 		E156B9841F825890005BE565 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E156B9821F825890005BE565 /* LaunchScreen.storyboard */; };
 		E156B98F1F825890005BE565 /* SecondKadaiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E156B98E1F825890005BE565 /* SecondKadaiAppTests.swift */; };
 		E156B99A1F825890005BE565 /* SecondKadaiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E156B9991F825890005BE565 /* SecondKadaiAppUITests.swift */; };
+		E156B9A81F8259D1005BE565 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E156B9A71F8259D1005BE565 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E156B9951F825890005BE565 /* SecondKadaiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecondKadaiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E156B9991F825890005BE565 /* SecondKadaiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondKadaiAppUITests.swift; sourceTree = "<group>"; };
 		E156B99B1F825890005BE565 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E156B9A71F8259D1005BE565 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				E156B9791F825890005BE565 /* AppDelegate.swift */,
 				E156B97B1F825890005BE565 /* ViewController.swift */,
 				E156B97D1F825890005BE565 /* Main.storyboard */,
+				E156B9A71F8259D1005BE565 /* ResultViewController.swift */,
 				E156B9801F825890005BE565 /* Assets.xcassets */,
 				E156B9821F825890005BE565 /* LaunchScreen.storyboard */,
 				E156B9851F825890005BE565 /* Info.plist */,
@@ -264,6 +267,7 @@
 			files = (
 				E156B97C1F825890005BE565 /* ViewController.swift in Sources */,
 				E156B97A1F825890005BE565 /* AppDelegate.swift in Sources */,
+				E156B9A81F8259D1005BE565 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
