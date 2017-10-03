@@ -76,16 +76,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hG5-g7-yID">
-                                <rect key="frame" x="172" y="112" width="31" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Mc-9l-UjN">
+                                <rect key="frame" x="167" y="206" width="40" height="30"/>
                                 <state key="normal" title="戻る"/>
                                 <connections>
-                                    <segue destination="clB-EK-jxo" kind="unwind" unwindAction="unwind:" id="JLS-Gm-Z47"/>
+                                    <segue destination="clB-EK-jxo" kind="unwind" unwindAction="unwind:" id="y5Y-to-1ec"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PmI-Kj-Qsc">
-                                <rect key="frame" x="16" y="52" width="343" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PmI-Kj-Qsc">
+                                <rect key="frame" x="52" y="120" width="271" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -93,9 +92,15 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="hG5-g7-yID" secondAttribute="trailing" constant="156" id="Z2B-WM-Q1s"/>
-                            <constraint firstItem="hG5-g7-yID" firstAttribute="leading" secondItem="F2i-46-baU" secondAttribute="leadingMargin" constant="156" id="hoj-D2-qK7"/>
-                            <constraint firstItem="HGb-Wy-PFn" firstAttribute="top" secondItem="hG5-g7-yID" secondAttribute="bottom" constant="525" id="voo-Cl-qn0"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5Mc-9l-UjN" secondAttribute="trailing" constant="152" id="5Dp-3F-oiy"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5Mc-9l-UjN" secondAttribute="trailing" constant="152" id="6rh-LZ-uiG"/>
+                            <constraint firstItem="5Mc-9l-UjN" firstAttribute="leading" secondItem="F2i-46-baU" secondAttribute="leadingMargin" constant="151" id="HPO-Av-LgC"/>
+                            <constraint firstItem="PmI-Kj-Qsc" firstAttribute="leading" secondItem="F2i-46-baU" secondAttribute="leadingMargin" constant="36" id="JWm-4j-Ydp"/>
+                            <constraint firstItem="5Mc-9l-UjN" firstAttribute="top" secondItem="PmI-Kj-Qsc" secondAttribute="bottom" constant="65" id="NHD-5p-eRh"/>
+                            <constraint firstItem="5Mc-9l-UjN" firstAttribute="top" secondItem="PmI-Kj-Qsc" secondAttribute="bottom" constant="65" id="Wlc-P8-TDU"/>
+                            <constraint firstItem="5Mc-9l-UjN" firstAttribute="leading" secondItem="F2i-46-baU" secondAttribute="leadingMargin" constant="151" id="iNp-YP-9m4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="PmI-Kj-Qsc" secondAttribute="trailing" constant="36" id="kzu-Xw-V3D"/>
+                            <constraint firstItem="PmI-Kj-Qsc" firstAttribute="top" secondItem="nyU-ay-9lg" secondAttribute="bottom" constant="100" id="mu6-7U-xtg"/>
                         </constraints>
                     </view>
                     <connections>
